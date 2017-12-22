@@ -56,7 +56,7 @@ RDEPEND="
 	selinux? ( sec-policy/selinux-mozilla )"
 
 DEPEND="${RDEPEND}
-	>=virtual/rust-1.21.0
+	>=virtual/rust-1.22.1
 	>=sys-devel/llvm-4.0.1
 	>=sys-devel/clang-4.0.1
 	amd64? ( ${ASM_DEPEND} virtual/opengl )
